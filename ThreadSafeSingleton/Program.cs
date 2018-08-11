@@ -12,20 +12,31 @@ namespace SingletonDemo
     {
         static void Main(string[] args)
         {
+            Parallel.Invoke(
+                () => PrintStudentdetails(),
+                () => PrintEmployeeDetails()
+                );
+            Console.ReadLine();
+        }
+
+        private static void PrintEmployeeDetails()
+        {
             /*
              * Assuming Singleton is created from employee class
              * we refer to the GetInstance property from the Singleton class
              */
             Singleton fromEmployee = Singleton.GetInstance;
             fromEmployee.PrintDetails("From Employee");
+        }
+
+        private static void PrintStudentdetails()
+        {
             /*
-             * Assuming Singleton is created from student class
-             * we refer to the GetInstance property from the Singleton class
-             */
+                         * Assuming Singleton is created from student class
+                         * we refer to the GetInstance property from the Singleton class
+                         */
             Singleton fromStudent = Singleton.GetInstance;
             fromStudent.PrintDetails("From Student");
-
-            Console.ReadLine();
         }
     }
 }

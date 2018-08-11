@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F7CDDC22-AAB6-4784-8A3A-1166C98B4197}</ProjectGuid>
+    <ProjectGuid>{D28355CC-4107-4CE5-AC69-B30FE36C1B65}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DesignPattern</RootNamespace>
-    <AssemblyName>DesignPattern</AssemblyName>
+    <RootNamespace>LazyLoading</RootNamespace>
+    <AssemblyName>LazyLoading</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,7 +44,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Singelton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
