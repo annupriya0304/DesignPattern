@@ -12,20 +12,10 @@ using SingeltonApplication.Logger;
 
 namespace SingeltonApplication.Controllers
 {
-    public class EmployeesController : Controller
+    public class EmployeesController : BaseController
     {
-
-        private Ilog _ILog;
-        public EmployeesController()
-        {
-            _ILog = Logger.Logger.GetInstance;
-        }
-        protected override void OnException(ExceptionContext filterContext)
-        {
-            _ILog.LogException(filterContext.Exception.ToString());
-            filterContext.ExceptionHandled = true;
-            this.View("Error").ExecuteResult(this.ControllerContext);
-        }
+       
+        
         private EmployeeEntities2 db = new EmployeeEntities2();
 
         // GET: Employees

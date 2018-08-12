@@ -26,8 +26,7 @@ namespace SingeltonApplication.Logger
 
         public void LogException(string Message)
         {
-            string fileName = string.Format("{0}_{1}.log", "Exception", DateTime.Now.ToShortDateString());
-            string logFilePath = string.Format(@"{0}\{1}", AppDomain.CurrentDomain.BaseDirectory, fileName);
+            string logFilePath = string.Format(@"C:\\Exception.txt");
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("----------------------------------------");
             sb.AppendLine(DateTime.Now.ToString());
