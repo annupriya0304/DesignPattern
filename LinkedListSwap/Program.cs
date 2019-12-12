@@ -10,8 +10,9 @@ namespace LinkedListSwap
     {
         static void Main(string[] args)
         {
-            
 
+            ParallelDemo p = new ParallelDemo();
+            Console.ReadKey();
         }
 
         public static Node CreateLinkedList()
@@ -52,6 +53,8 @@ namespace LinkedListSwap
             }
             ll.Data = y;
         }
+
+       
     }
 
     class Node
@@ -70,6 +73,29 @@ namespace LinkedListSwap
 
       
 
+    }
+
+    class ParallelDemo
+    {
+
+        public ParallelDemo()
+        {
+            Parallel.Invoke(
+                () => {
+                    PrintCount(-10, 0);
+                },
+                () => {
+                    PrintCount(1, 10);
+                }
+            );
+        }
+        public void PrintCount(int LowLimit, int UpperLimit)
+        {
+            for (int i = LowLimit; i <= UpperLimit; i++)
+            {
+                Console.WriteLine("> {0}", i);
+            }
+        }
     }
 
 

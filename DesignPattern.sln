@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "builder", "builder\builder.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListSwap", "LinkedListSwap\LinkedListSwap.csproj", "{0A3B78E8-5E64-4D2A-B4A0-4866FF63E407}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ayncawait", "ayncawait\ayncawait.csproj", "{DB254F8E-8EC8-425C-B533-5A56015F0EBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{0A3B78E8-5E64-4D2A-B4A0-4866FF63E407}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A3B78E8-5E64-4D2A-B4A0-4866FF63E407}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A3B78E8-5E64-4D2A-B4A0-4866FF63E407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB254F8E-8EC8-425C-B533-5A56015F0EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB254F8E-8EC8-425C-B533-5A56015F0EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB254F8E-8EC8-425C-B533-5A56015F0EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB254F8E-8EC8-425C-B533-5A56015F0EBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
