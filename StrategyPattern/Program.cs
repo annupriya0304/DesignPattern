@@ -13,7 +13,7 @@ namespace StrategyPattern
             SortingStarategy sortingStarategy = new SortingStarategy();
             Console.WriteLine("Enter the integer list to sort. Enter all elements with spaces and then press enter key ");
             List<int> lst = Array.ConvertAll( Console.ReadLine().Split(' '), Int32.Parse).ToList();
-            Console.WriteLine("Enter which way u want to sort");
+            Console.WriteLine("Enter which way u want to sort"); 
             string input = Console.ReadLine();
 
             switch (input)
