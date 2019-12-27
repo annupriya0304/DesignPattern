@@ -54,6 +54,7 @@ class Solution
             }
 
             string result = gridChallenge(grid);
+            Console.WriteLine(result);
             
         }
         
