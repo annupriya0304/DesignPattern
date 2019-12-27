@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "extralongFact", "extralongF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classinterfacebasic", "classinterfacebasic\classinterfacebasic.csproj", "{AD06CE4F-931B-4602-A4F9-BF4ADCC928A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "funcaction", "funcaction\funcaction.csproj", "{69879859-D886-4B32-AAB5-8E77EA58FD4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{AD06CE4F-931B-4602-A4F9-BF4ADCC928A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD06CE4F-931B-4602-A4F9-BF4ADCC928A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD06CE4F-931B-4602-A4F9-BF4ADCC928A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69879859-D886-4B32-AAB5-8E77EA58FD4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69879859-D886-4B32-AAB5-8E77EA58FD4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69879859-D886-4B32-AAB5-8E77EA58FD4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69879859-D886-4B32-AAB5-8E77EA58FD4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
