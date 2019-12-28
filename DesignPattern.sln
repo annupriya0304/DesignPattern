@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eventsanddelegate", "events
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eventsanddelegatetwo", "eventsanddelegatetwo\eventsanddelegatetwo.csproj", "{CC9CEC95-EFA7-4BFF-AF7C-706003F8B825}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "videoencoderclass", "videoencoderclass\videoencoderclass.csproj", "{18145049-DBC5-4289-9847-2FB475096FDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{CC9CEC95-EFA7-4BFF-AF7C-706003F8B825}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC9CEC95-EFA7-4BFF-AF7C-706003F8B825}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC9CEC95-EFA7-4BFF-AF7C-706003F8B825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18145049-DBC5-4289-9847-2FB475096FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18145049-DBC5-4289-9847-2FB475096FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18145049-DBC5-4289-9847-2FB475096FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18145049-DBC5-4289-9847-2FB475096FDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
