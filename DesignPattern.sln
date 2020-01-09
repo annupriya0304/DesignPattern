@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eventsanddelegatetwo", "eve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "videoencoderclass", "videoencoderclass\videoencoderclass.csproj", "{18145049-DBC5-4289-9847-2FB475096FDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAcexm", "GAcexm\GAcexm.csproj", "{C4B3C6B4-5043-4B85-AC90-2FF736F368BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codechef1", "codechef1\codechef1.csproj", "{C0A5935E-21E3-4AE7-A84A-6F33AFEB3665}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{18145049-DBC5-4289-9847-2FB475096FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18145049-DBC5-4289-9847-2FB475096FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18145049-DBC5-4289-9847-2FB475096FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B3C6B4-5043-4B85-AC90-2FF736F368BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B3C6B4-5043-4B85-AC90-2FF736F368BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B3C6B4-5043-4B85-AC90-2FF736F368BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B3C6B4-5043-4B85-AC90-2FF736F368BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0A5935E-21E3-4AE7-A84A-6F33AFEB3665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A5935E-21E3-4AE7-A84A-6F33AFEB3665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A5935E-21E3-4AE7-A84A-6F33AFEB3665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A5935E-21E3-4AE7-A84A-6F33AFEB3665}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
