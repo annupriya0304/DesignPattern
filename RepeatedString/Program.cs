@@ -34,6 +34,31 @@ class Solution
 
     }
 
+    static void insertionSort2(int n, int[] arr)
+    {
+        // Complete this function
+
+        for (int k = 0; k < arr.Length - 1; k++)
+        {
+            for (int i = 0; i < arr.Length - 1; i++)
+            {
+                int key = arr[k + 1];
+                if (i == k + 1)
+                    break;
+                if (arr[i] > key)
+                {
+                    arr[k + 1] = arr[i];
+                    arr[i] = key;
+                }
+            }
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.WriteLine(arr[i] + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+
     static void Main(string[] args)
     {
 
