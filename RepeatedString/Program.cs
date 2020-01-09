@@ -59,14 +59,51 @@ class Solution
         }
     }
 
-    static void Main(string[] args)
+    static void main(string[] args)
     {
 
-        string s = Console.ReadLine();
+        int n = Convert.ToInt32(Console.ReadLine());
 
-        long n = Convert.ToInt64(Console.ReadLine());
+        int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp))
+        ;
+        int m = Convert.ToInt32(Console.ReadLine());
 
-        long result = repeatedString(s, n);
+        int[] brr = Array.ConvertAll(Console.ReadLine().Split(' '), brrTemp => Convert.ToInt32(brrTemp))
+        ;
+        int[] result = missingNumbers(arr, brr);
+
         Console.WriteLine(result);
     }
+
+
+
+    // Complete the missingNumbers function below.
+    static int[] missingNumbers(int[] arr, int[] brr)
+    {
+        int count = brr.Length - arr.Length;
+
+        int[] arrresult = new int[count];
+        var arrayresult = new List<int>();
+
+        int[] brrdist = brr.Distinct().ToArray();
+
+        for(int i =0; i<brrdist.Length; i++)
+        {
+            int counina = arr.Count(x => x == brrdist[i]);
+            int couninb = brr.Count(x => x == brrdist[i]);
+            if(couninb > counina)
+            {
+                arrayresult.Add(brrdist[i]);
+            }
+        }
+
+        arrresult = arrayresult.ToArray();
+        Array.Sort(arrresult);
+
+        return arrresult;
+
+    }
+
+  
 }
+
